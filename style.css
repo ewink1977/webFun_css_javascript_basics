@@ -1,16 +1,91 @@
 * {
-    /* Universal Reset!  */
-    vertical-align: baseline;
-	font-weight: inherit;
-	font-family: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	border: 0 none;
-	outline: 0;
-	padding: 0;
+	/* padding: 0; */
 	margin: 0;
+}
+
+a {
+    color: aqua;
 }
 
 #wrapper {
     background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 10px;
+}
+
+header {
+    border-radius: 25px;
+    background-color: red;
+    color: whitesmoke;
+    display: block;
+    width: 970px;
+    margin: 10px;
+    padding: 15px;
+}
+
+#content {
+    display: flex;
+    /* width: 970px; */
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    border-radius: 25px;
+    background-color: green;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    /* width: 250px; */
+}
+
+nav ul {
+    list-style-type: circle;
+}
+
+.no-decor {
+    list-style-type: none;
+    margin: 0px 0px 0px -35px;
+}
+
+section {
+    border-radius: 25px;
+    background-color: black;
+    display: inline-block;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 15px;
+    width: 760px;
+}
+
+section h2 {
+    padding: 5px;
+}
+
+section p {
+    padding: 5px;
+}
+
+section ul li {
+    margin-left: -10px;
+    padding: 5px;
+}
+
+.code {
+    color: purple;
+}
+
+footer {
+    border-radius: 25px;
+    background-color: grey;
+    width: 970px;
+    display: block;
+    margin: 10px;
+    padding: 15px;
 }
